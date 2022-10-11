@@ -9,11 +9,9 @@ strength indication*) measurements from stations of a cellular network. Think of
 
 1. Convince oneself that
 
-$$\{\left(\tilde{\mathbf{X}_{n}}, \mathbf{Y}_{n}\right)\}_{n \in \mathbb{N}}$$
+$$\{\left(\tilde{\mathbf{X}}_{n}, \mathbf{Y}_{n}\right)\}_{n \in \mathbb{N}}$$
 
-forms a hidden Markov model, where $\tilde{\mathbf{X}_{n}}$
-
-is the hidden state that governs the dynamics of the target, and $\mathbf{Y}_{n}$
+forms a hidden Markov model, where $\tilde{\mathbf{X}_{n}}$ is the hidden state that governs the dynamics of the target, and $\mathbf{Y}_{n}$
 
 are the RSSI measurements.
 
