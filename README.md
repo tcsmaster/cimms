@@ -7,7 +7,9 @@ strength indication*) measurements from stations of a cellular network. Think of
 
 # Exercises:
 
-1. Convince oneself that $\\{ \left( \tilde{\mathbf{X}_{n}}, \mathbf{Y}_{n}\right)\}_{n \in \mathbb{N}}$ forms a *hidden Markov model*, where $\tilde{\mathbf{X}_{n}}$ is the hidden state that governs the dynamics of the target, and $\mathbf{Y}_{n}$ are the RSSI measurements.
+1. Convince oneself that 
+$$\{\left(\tilde{\mathbf{X}_{n}}, \mathbf{Y}_{n}\right)\}_{n \in \mathbb{N}}$$
+forms a hidden Markov model, where $\tilde{\mathbf{X}_{n}}$ is the hidden state that governs the dynamics of the target, and $\mathbf{Y}_{n}$ are the RSSI measurements.
 
 2. Estimate the expected positions of the target using Sequential Monte Carlo methods:
   1. Sequential Importance Sampling (SIS): this leads to *sample degeneracy*
